@@ -1,0 +1,28 @@
+{
+  "name": "angiograph",
+  "version": "1.0.0",
+  "description": "A program that creates images of retweet networks and displays them in ar-frame.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "babel src -d lib"
+  },
+  "author": "Benj. N. Sugar",
+  "license": "ISC",
+  "dependencies": {
+    "countdownjs": "^2.0.0",
+    "cytoscape": "^2.7.13",
+    "get-twitter-followers": "^2.0.0",
+    "randomstring": "^1.1.5",
+    "servi": "0.0.8",
+    "timer-stopwatch": "^0.2.0",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-env": "^1.1.4",
+    "forever": "^0.15.3"
+  }
+}
